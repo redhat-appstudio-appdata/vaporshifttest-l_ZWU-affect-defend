@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: vaporshifttest
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhn-support-trees-tenant/vaporshifttest/vaporshifttest@sha256:4ee46ab2ae1c32c86bb244e09d9692075163c60b3e7b181fc41f7781bcfa5e7c
+        name: container-image
+        resources: {}
+status: {}
