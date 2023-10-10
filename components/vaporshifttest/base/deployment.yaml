@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: vaporshifttest
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhn-support-trees-tenant/vaporshifttest/vaporshifttest@sha256:d3e730d38ef887d9211f53cb24c1cb437aecf5cdb0600e092940fae6c0e75f53
+      - image: quay.io/redhat-user-workloads/rhn-support-trees-tenant/vaporshifttest/vaporshifttest@sha256:108a34cc9ca844b30452e805866b90c5c275c6023e7d8da6637753b2a9683bbe
         imagePullPolicy: Always
         name: container-image
         ports:
