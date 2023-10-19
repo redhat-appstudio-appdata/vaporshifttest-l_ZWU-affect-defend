@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhn-support-trees-tenant/vaporshifttest/vaporshifttest@sha256:108a34cc9ca844b30452e805866b90c5c275c6023e7d8da6637753b2a9683bbe
+      - image: quay.io/redhat-user-workloads/rhn-support-trees-tenant/vaporshifttest/vaporshifttest@sha256:a5460ccc3363e8a1842cf97e1616131bfb761fc7038bc781733c921754a6973c
         name: container-image
         resources: {}
 status: {}
