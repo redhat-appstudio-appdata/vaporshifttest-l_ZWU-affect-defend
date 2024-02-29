@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: vaporshifttest
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -11,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhn-support-trees-tenant/vaporshifttest/vaporshifttest@sha256:a5460ccc3363e8a1842cf97e1616131bfb761fc7038bc781733c921754a6973c
+      - image: quay.io/redhat-user-workloads/rhn-support-trees-tenant/vaporshifttest/vaporshifttest@sha256:4eb4c25b54ae611279b0b00d9dfbd218b837c664ca283e0fd286c1773152d25f
         name: container-image
         resources: {}
 status: {}

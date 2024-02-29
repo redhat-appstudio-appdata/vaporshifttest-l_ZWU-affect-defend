@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: vaporshifttest
     app.kubernetes.io/part-of: vaporshifttest
-  name: vaporshifttestoqtp
+  name: vaporshifttesthfyq
 spec:
   port:
     targetPort: 8080
